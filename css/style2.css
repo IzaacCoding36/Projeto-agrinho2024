@@ -47,6 +47,8 @@ ul {margin: 0;}
 /*-------------------------------------------*/
 
 @media screen and (max-width: 900px){
-  #menu a {font-size: 5px;}
+  #menu a {font-size: 10px; 
+           font-weight: bold;
+           position: relative; right: 20px;}
 }
 /* definições para mobile-first, alterando o tamanho da fonte do menu para abranger mais espaço entre as "abas" */

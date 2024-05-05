@@ -51,9 +51,17 @@ hr {color: black; position: relative; top: 40px;}
      position: relative; top: 40px;}
 /* apresentação do projeto */
 
+#I1 {position: relative; top: 40px;
+     cursor: default;
+     box-shadow: 0px 15px 15px yellow, -15px 0px 15px orange;
+     width: 25%; height: 25%;
+     border: solid 2px black;}
+/* estilização da imagem de relação campo-cidade */
+
 #Te1 {color: black; position: relative;
       position: relative; top: 40px;
-      top: -150px; cursor: default; width: 90%;}
+      cursor: default; width: 90%;}
+/* estilização do texto de relação campo-cidade */
 
 #Te2 {color: black; 
       cursor: default;
@@ -72,7 +80,5 @@ a:hover {color: cyan;}
 /* Proporções Extras */
 
 @media screen and (min-width: 900px){
-   .Botao_superior {height: 3%; width: 3%;}
-   .Projetos_img {height: 50%; width: 50%;}
-   #I1,#I2 {height: 50%; width: 50%;}
+   #I1 {width: 20%; height: 20%;}
 }
