@@ -15,37 +15,36 @@ body {margin: 0px; padding: 0px;}
 /* definição de espaçamento do conteúdo contido no body da página */
 
 @keyframes glow { 0% {box-shadow: 0px 0px 30px magenta;}
-            25% {box-shadow: 0px 0px 15px purple;}
-            50% {box-shadow: 0px 0px 30px lime;}
-            75% {box-shadow: 0px 0px 15px purple;}
-            100% {box-shadow: 0px 0px 30px magenta;}
+                  25% {box-shadow: 0px 0px 15px purple;}
+                  50% {box-shadow: 0px 0px 30px lime;}
+                  75% {box-shadow: 0px 0px 15px purple;}
+                  100% {box-shadow: 0px 0px 30px magenta;}
 }
 /* animação para acrescentar detalhes em alguns botões e imagens */
 
 .T1 {color: cyan; background: grey;
-         box-shadow: 0px 0px 15px cyan;
-         text-shadow: 0px 0px 15px blue;
-         padding: 10px;
-         cursor: default;
-         width: 80%;
-         max-width: 900px;
-         position: relative; top: 40px;
-         font-size: 30px;}
+     box-shadow: 0px 0px 15px cyan;
+     text-shadow: 0px 0px 15px blue;
+     padding: 10px;
+     cursor: default;
+     width: 80%;
+     max-width: 900px;
+     position: relative; top: 40px;
+     font-size: 30px;}
 /* título principal */
 
 hr {color: black; position: relative; top: 40px;}
 /* definições para separações (em linhas) */
 
 .T2 {color: lime; background: black;
-         box-shadow: 0px 0px 15px lime;
-         text-shadow: 0px 0px 15px lime;
-         padding: 10px;
-         border-radius: 25%;
-         cursor: default;
-         width: 55%;
-         max-width: 700px;
-         position: relative; top: 40px;
-         font-size: 21px;}
+     box-shadow: 0px 0px 15px lime;
+     text-shadow: 0px 0px 15px lime;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
 /* título secundário */
 
 #A1 {color: black; cursor: default;
@@ -65,6 +64,24 @@ hr {color: black; position: relative; top: 40px;}
       font-size: 15px;
       cursor: default; width: 90%;}
 /* estilização do texto de relação campo-cidade */
+
+.T3 {color: white; background: #157205;
+     box-shadow: 0px 0px 15px lime;
+     text-shadow: 0px 0px 15px lime;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
+/* terceiro título */
+
+#I2 {position: relative; top: 40px;
+     cursor: default;
+     box-shadow: 0px 5px 15px brown, -5px 0px 15px red;
+     width: 30%; height: 25%;
+     border: solid 2px black;}
+/* estilização da imagem de oportunidades */
 
 #Te2 {color: black; 
       cursor: default;
