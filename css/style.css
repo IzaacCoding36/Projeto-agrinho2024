@@ -90,10 +90,16 @@ hr {color: black; position: relative; top: 40px;}
 /* fonte matriz da página e políticas de privacidade/termos de serviço, etc */
 
 a {color: white;}
-/* padrão de cor branca para links */
+/* padrão de cor branca para links primários */
 
 a:hover {color: cyan;}
-/* padrão de cor ciano para links clicados */
+/* padrão de cor ciano para links primários quando clicados */
+
+.links {color: grey;}
+/* padrão de cor cinza para links secundários */
+
+.links:hover {color: green;}
+/* padrão de cor ciano para links secundários quando clicados */
 
 /*-------------------------------------------*/
 
