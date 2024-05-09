@@ -105,5 +105,7 @@ a:hover {color: cyan;}
 
 /* Proporções Extras */
 
-@media screen and (min-width: 900px){
+@media screen and (max-width: 600px){
+  #I1,#I2 {width: 50%; height: 50%;}
 }
+/* definições para mobile-first, alterando o tamanho das imagens para uma melhor visão do conteúdo */
