@@ -89,16 +89,16 @@ hr {color: black; position: relative; top: 40px;}
       font-size: 15px; width: 90%;}
 /* fonte matriz da página e políticas de privacidade/termos de serviço, etc */
 
-a {color: white;}
+a {color: white; transition: color 0.3s;}
 /* padrão de cor branca para links primários */
 
-a:hover {color: cyan;}
+a:hover {color: cyan; transition: color 0.3s;}
 /* padrão de cor ciano para links primários quando clicados */
 
-.links {color: grey;}
+.links {color: grey; transition: color 0.3s;}
 /* padrão de cor cinza para links secundários */
 
-.links:hover {color: green;}
+.links:hover {color: green; transition: color 0.3s;}
 /* padrão de cor ciano para links secundários quando clicados */
 
 /*-------------------------------------------*/
