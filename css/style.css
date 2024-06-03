@@ -78,10 +78,17 @@ hr {color: black; position: relative; top: 40px;}
 
 #I2 {position: relative; top: 40px;
      cursor: default;
-     box-shadow: 0px 5px 15px brown, -5px 0px 15px red;
-     width: 25%; height: 15%;
+     box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
+     width: 30%; height: 25%;
      border: solid 2px black;}
 /* estilização da imagem de oportunidades */
+
+.Topicos {color: black; position: relative;
+         position: relative; top: 40px;
+         font-size: 15px;
+         padding: 15px;
+         cursor: default; width: 90%;}
+/* estilização de tópicos gerais */
 
 #Te2 {color: black; 
       cursor: default;
@@ -107,5 +114,6 @@ a:hover {color: cyan; transition: color 0.3s;}
 
 @media screen and (max-width: 600px){
   #I1,#I2 {width: 50%; height: 50%;}
+  .Topicos {text-align: left;}
 }
 /* definições para mobile-first, alterando o tamanho das imagens para uma melhor visão do conteúdo */
