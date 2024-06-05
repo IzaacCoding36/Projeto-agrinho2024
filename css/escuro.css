@@ -1,0 +1,119 @@
+/* Projeto Agrinho 2024 */
+
+/* Tema do Projeto: Agrinho, do campo à cidade, colhendo oportunidades. */
+
+/*-------------------------------------------*/
+
+html {background: #020411e7;
+      background-repeat: no-repeat;
+      font-family:'Orbitron', sans-serif;
+      align-items: center;
+      font-size: 25px;}
+/* definição da cor de fundo, fontes e demais parâmetros do html */
+
+body {margin: 0px; padding: 0px;}
+/* definição de espaçamento do conteúdo contido no body da página */
+
+@keyframes glow { 0% {box-shadow: 0px 0px 30px magenta;}
+                  25% {box-shadow: 0px 0px 15px purple;}
+                  50% {box-shadow: 0px 0px 30px lime;}
+                  75% {box-shadow: 0px 0px 15px purple;}
+                  100% {box-shadow: 0px 0px 30px magenta;}
+}
+/* animação para acrescentar detalhes em alguns botões e imagens */
+
+.T1 {color: cyan; background: grey;
+     box-shadow: 0px 0px 15px cyan;
+     text-shadow: 0px 0px 15px blue;
+     padding: 10px;
+     cursor: default;
+     width: 80%;
+     max-width: 900px;
+     position: relative; top: 40px;
+     font-size: 30px;}
+/* título principal */
+
+hr {color: #e7e7e7e7; position: relative; top: 40px;}
+/* definições para separações (em linhas) */
+
+.T2 {color: lime; background: black;
+     box-shadow: 0px 0px 15px lime;
+     text-shadow: 0px 0px 15px lime;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
+/* título secundário */
+
+#A1 {color: #e7e7e7e7; cursor: default;
+     width: 90%;
+     position: relative; top: 40px;}
+/* apresentação do projeto */
+
+#I1 {position: relative; top: 40px;
+     cursor: default;
+     box-shadow: 0px 5px 15px yellow, -5px 0px 15px orange;
+     width: 30%; height: 25%;
+     border: solid 2px #020411e7;}
+/* estilização da imagem de relação campo-cidade */
+
+#Te1 {color: #e7e7e7e7; position: relative;
+      position: relative; top: 40px;
+      font-size: 15px;
+      cursor: default; width: 90%;}
+/* estilização do texto de relação campo-cidade */
+
+.T3 {color: white; background: #157205;
+     box-shadow: 0px 0px 15px lime;
+     text-shadow: 0px 0px 15px lime;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
+/* terceiro título */
+
+#I2 {position: relative; top: 40px;
+     cursor: default;
+     box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
+     width: 30%; height: 25%;
+     border: solid 2px #020411e7;}
+/* estilização da imagem de oportunidades */
+
+.Topicos {color: #e7e7e7e7; position: relative;
+         position: relative; top: 40px;
+         font-size: 15px;
+         padding: 15px;
+         cursor: default; width: 90%;}
+/* estilização de tópicos gerais */
+
+#Te2 {color: #e7e7e7e7; 
+      cursor: default;
+      position: relative; top: 40px;
+      font-size: 15px; width: 90%;}
+/* fonte matriz da página e políticas de privacidade/termos de serviço, etc */
+
+a {color: white; transition: color 0.3s;}
+/* padrão de cor branca para links primários */
+
+a:hover {color: cyan; transition: color 0.3s;}
+/* padrão de cor ciano para links primários quando clicados */
+
+.links {color: lime; transition: color 0.3s;}
+/* padrão de cor cinza para links secundários */
+
+.links:hover {color: green; transition: color 0.3s;}
+/* padrão de cor ciano para links secundários quando clicados */
+
+/*-------------------------------------------*/
+
+/* Proporções Extras */
+
+@media screen and (max-width: 600px){
+  #I1,#I2 {width: 50%; height: 50%;}
+  .Topicos {text-align: left;}
+}
+/* definições para mobile-first, alterando o tamanho das imagens para uma melhor visão do conteúdo */

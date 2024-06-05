@@ -1,0 +1,10 @@
+html {background: #020411e7; cursor: default; font-family:'Orbitron';}
+
+h1 {color: lime;}
+h2 {color: lime;}
+p {color: #e7e7e7e7;}
+
+a {color: blue; text-decoration: none; transition: color 0.3s;}
+
+a:hover {color: lime; transition: color 0.3s;}
+a:active {color: green;}
