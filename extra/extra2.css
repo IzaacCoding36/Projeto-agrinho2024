@@ -8,3 +8,5 @@ a {color: blue; text-decoration: none; transition: color 0.3s;}
 
 a:hover {color: lime; transition: color 0.3s;}
 a:active {color: green;}
+
+/* Estilização de elementos/páginas extras */
