@@ -14,14 +14,6 @@ html {background: #e7e7e7e7;
 body {margin: 0px; padding: 0px;}
 /* definição de espaçamento do conteúdo contido no body da página */
 
-@keyframes glow { 0% {box-shadow: 0px 0px 30px magenta;}
-                  25% {box-shadow: 0px 0px 15px purple;}
-                  50% {box-shadow: 0px 0px 30px lime;}
-                  75% {box-shadow: 0px 0px 15px purple;}
-                  100% {box-shadow: 0px 0px 30px magenta;}
-}
-/* animação para acrescentar detalhes em alguns botões e imagens */
-
 .T1 {color: cyan; background: grey;
      box-shadow: 0px 0px 15px cyan;
      text-shadow: 0px 0px 15px blue;
