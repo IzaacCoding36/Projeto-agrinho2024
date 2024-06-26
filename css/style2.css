@@ -7,14 +7,14 @@ ul {margin: 0;}
 
 #logo {font-size: 10px;
        font-weight: bold;
-       background: grey;
+       background: #000000aa;
        color: cyan;
        text-shadow: 0px 0px 15px lime;
        width: 100px;
        padding: 10px;
        box-shadow: 0px 0px 15px cyan;
        text-shadow: 0px 0px 15px blue;
-       border-radius: 10%;
+       border-radius: 20%;
        cursor: default;}
 /* Nome do Projeto no header*/
 
