@@ -5,7 +5,7 @@
 /*-------------------------------------------*/
 
 html {background: #e7e7e7e7;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       background-image: url("background2.png");
       background-size: 100%;
       font-family:'Orbitron', sans-serif;
