@@ -22,6 +22,7 @@ body {margin: 0px; padding: 0px;}
      padding: 10px;
      cursor: default;
      width: 80%;
+     border-radius: 50px;
      max-width: 900px;
      position: relative; top: 40px;
      font-size: 30px;}
@@ -31,11 +32,12 @@ hr {color: #e7e7e7e7; position: relative; top: 40px;}
 /* definições para separações (em linhas) */
 
 .T2 {color: yellow; background: #040492;
-     box-shadow: 0px 0px 15px orange;
-     text-shadow: 0px 5px 15px yellow, -5px 0px 15px orange;
+     box-shadow: 0px 5px 15px yellow, -5px 0px 15px orange;
+     text-shadow: 0px 0px 15px orange;
      padding: 10px;
      cursor: default;
      width: 55%;
+     border-radius: 50px;
      max-width: 700px;
      position: relative; top: 40px;
      font-size: 21px;}
@@ -50,6 +52,7 @@ hr {color: #e7e7e7e7; position: relative; top: 40px;}
      cursor: default;
      box-shadow: 0px 5px 15px yellow, -5px 0px 15px orange;
      width: 30%; height: 25%;
+     border-radius: 50px;
      border: solid 2px #020411e7;}
 /* estilização da imagem de relação campo-cidade */
 
@@ -65,6 +68,7 @@ hr {color: #e7e7e7e7; position: relative; top: 40px;}
      padding: 10px;
      cursor: default;
      width: 55%;
+     border-radius: 50px;
      max-width: 700px;
      position: relative; top: 40px;
      font-size: 21px;}
@@ -74,6 +78,7 @@ hr {color: #e7e7e7e7; position: relative; top: 40px;}
      cursor: default;
      box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
      width: 30%; height: 25%;
+     border-radius: 50px;
      border: solid 2px #020411e7;}
 /* estilização da imagem de oportunidades */
 
@@ -107,7 +112,9 @@ a:hover {color: cyan; transition: color 0.3s;}
 /* Proporções Extras */
 
 @media screen and (max-width: 600px){
-  #I1,#I2 {width: 50%; height: 50%;}
+  html {background-size: 200%;}
+  .T1,.T2,.T3 {border-radius: 0px;}
+  #I1,#I2 {width: 50%; height: 50%; border-radius: 0px;}
   .Topicos {text-align: left;}
 }
 /* definições para mobile-first, alterando o tamanho das imagens para uma melhor visão do conteúdo */
