@@ -8,7 +8,8 @@ html {background: #020411e7;
       background-repeat: repeat;
       background-image: url("background.png");
       background-size: 100%;
-      font-family:'Orbitron', sans-serif;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
       align-items: center;
       font-size: 25px;}
 /* definição da cor de fundo, fontes e demais parâmetros do html */
@@ -28,7 +29,7 @@ body {margin: 0px; padding: 0px;}
      font-size: 30px;}
 /* título principal */
 
-hr {color: #e7e7e7e7; position: relative; top: 40px;}
+hr {color: #e7e7e7e7; position: relative; top: 40px; box-shadow: 0px 0px 5px white;}
 /* definições para separações (em linhas) */
 
 .T2 {color: yellow; background: #040492;
@@ -88,6 +89,9 @@ hr {color: #e7e7e7e7; position: relative; top: 40px;}
          padding: 15px;
          cursor: default; width: 90%;}
 /* estilização de tópicos gerais */
+
+strong {text-shadow: 0px 0px 15px white; color: white;}
+/* aplicação de destaques */
 
 #Te2 {color: #e7e7e7e7; 
       cursor: default;
