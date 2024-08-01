@@ -17,6 +17,9 @@ html {background: #e7e7e7e7;
 body {margin: 0px; padding: 0px;}
 /* definição de espaçamento do conteúdo contido no body da página */
 
+div {padding-bottom: 45px; width: 100%;}
+/* definição de espaçamento entre as seções da página */
+
 .T1 {color: cyan; background: #000000aa;
      box-shadow: 0px 0px 15px cyan;
      text-shadow: 0px 0px 15px blue;
