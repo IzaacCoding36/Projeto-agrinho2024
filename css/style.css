@@ -20,6 +20,37 @@ body {margin: 0px; padding: 0px;}
 div {padding-bottom: 45px; width: 100%;}
 /* definição de espaçamento entre as seções da página */
 
+hr {color: black; position: relative; top: 40px; box-shadow: 0px 0px 3px black;}
+/* definições para separações (em linhas) */
+
+button {position: relative; top: 40px; 
+     background-color: black;
+     color: white;
+     border: solid 2px yellowgreen;
+     border-radius: 25px;
+     box-shadow: 0px 2px 5px lime, -2px 0px 5px yellow;
+     padding: 9px;
+     font-size: 15px;
+     font-weight: bold;
+     transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+     cursor: pointer;}
+/* estilização de botão */
+
+button:hover {background-color: yellowgreen;
+           box-shadow: 0px 2px 5px black, -2px 0px 5px black;
+           transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+           color: black;}
+/* efeitos ao mirar o mouse no botão */
+
+strong {text-shadow: 0px 0px 15px black;}
+/* aplicação de destaques */
+
+a {color: white; transition: color 0.3s;}
+/* padrão de cor branca para links primários */
+
+a:hover {color: cyan; transition: color 0.3s;}
+/* padrão de cor ciano para links primários quando clicados */
+
 .T1 {color: cyan; background: #000000aa;
      box-shadow: 0px 0px 15px cyan;
      text-shadow: 0px 0px 15px blue;
@@ -32,9 +63,6 @@ div {padding-bottom: 45px; width: 100%;}
      font-size: 30px;}
 /* título principal */
 
-hr {color: black; position: relative; top: 40px; box-shadow: 0px 0px 3px black;}
-/* definições para separações (em linhas) */
-
 .T2 {color: yellow; background: #040492;
      box-shadow: 0px 5px 15px yellow, -5px 0px 15px orange;
      text-shadow: 0px 0px 15px orange;
@@ -46,6 +74,43 @@ hr {color: black; position: relative; top: 40px; box-shadow: 0px 0px 3px black;}
      position: relative; top: 40px;
      font-size: 21px;}
 /* título secundário */
+
+.T3 {color: white; background: #040492;
+     box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
+     text-shadow: 0px 0px 15px cyan;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     border-radius: 50px;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
+/* terceiro título */
+
+.Topicos {color: black; position: relative;
+     position: relative; top: 40px;
+     font-size: 15px;
+     padding: 15px;
+     cursor: default; width: 90%;}
+/* estilização de tópicos gerais */
+
+.T4 {color: lime; background: #040492;
+     box-shadow: 0px 5px 15px lime, -5px 0px 15px yellow;
+     text-shadow: 0px 0px 15px white;
+     padding: 10px;
+     cursor: default;
+     width: 55%;
+     border-radius: 50px;
+     max-width: 700px;
+     position: relative; top: 40px;
+     font-size: 21px;}
+/* quarto título */
+
+.links {color: blue; transition: color 0.3s;}
+/* padrão de cor cinza para links secundários */
+
+.links:hover {color: lime; transition: color 0.3s;}
+/* padrão de cor ciano para links secundários quando clicados */
 
 #A1 {color: black; cursor: default;
      width: 90%;
@@ -66,18 +131,6 @@ hr {color: black; position: relative; top: 40px; box-shadow: 0px 0px 3px black;}
       cursor: default; width: 90%;}
 /* estilização do texto de relação campo-cidade */
 
-.T3 {color: white; background: #040492;
-     box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
-     text-shadow: 0px 0px 15px cyan;
-     padding: 10px;
-     cursor: default;
-     width: 55%;
-     border-radius: 50px;
-     max-width: 700px;
-     position: relative; top: 40px;
-     font-size: 21px;}
-/* terceiro título */
-
 #I2 {position: relative; top: 40px;
      cursor: default;
      box-shadow: 0px 5px 15px blue, -5px 0px 15px teal;
@@ -86,15 +139,13 @@ hr {color: black; position: relative; top: 40px; box-shadow: 0px 0px 3px black;}
      border: solid 2px black;}
 /* estilização da imagem de oportunidades */
 
-.Topicos {color: black; position: relative;
-         position: relative; top: 40px;
-         font-size: 15px;
-         padding: 15px;
-         cursor: default; width: 90%;}
-/* estilização de tópicos gerais */
-
-strong {text-shadow: 0px 0px 15px black;}
-/* aplicação de destaques */
+#I3 {position: relative; top: 40px;
+     cursor: default;
+     box-shadow: 0px 5px 15px lime, -5px 0px 15px yellow;
+     width: 30%; height: 25%;
+     border-radius: 50px;
+     border: solid 2px black;}
+/* estilização da imagem de inovação */
 
 #Te2 {color: black; 
       cursor: default;
@@ -102,26 +153,15 @@ strong {text-shadow: 0px 0px 15px black;}
       font-size: 15px; width: 90%;}
 /* fonte matriz da página e políticas de privacidade/termos de serviço, etc */
 
-a {color: white; transition: color 0.3s;}
-/* padrão de cor branca para links primários */
-
-a:hover {color: cyan; transition: color 0.3s;}
-/* padrão de cor ciano para links primários quando clicados */
-
-.links {color: blue; transition: color 0.3s;}
-/* padrão de cor cinza para links secundários */
-
-.links:hover {color: lime; transition: color 0.3s;}
-/* padrão de cor ciano para links secundários quando clicados */
-
 /*-------------------------------------------*/
 
 /* Proporções Extras */
 
 @media screen and (max-width: 600px){
   html {background-size: 200%;}
-  .T1,.T2,.T3 {border-radius: 0px;}
-  #I1,#I2 {width: 50%; height: 50%; border-radius: 0px;}
+  button {padding: 5px; font-size: 14px;}
+  .T1,.T2,.T3,.T4 {border-radius: 0px;}
   .Topicos {text-align: left;}
+  #I1,#I2,#I3 {width: 50%; height: 50%; border-radius: 0px;}
 }
 /* definições para mobile-first, alterando o tamanho das imagens para uma melhor visão do conteúdo */
